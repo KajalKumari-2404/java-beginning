@@ -277,20 +277,31 @@
 
 // compare strings
 
+// public class Strings {
+
+//     public static void main(String[] args) {
+//         String name1 = "kajal";
+//         String name2 = "kajal2";
+
+//         if(name1.compareTo(name2) == 0) {
+//             System.out.println("string are equal");
+//         } else {
+//             System.out.println("string are not equal");
+//         }
+//     }
+// }
+
+
+// sub strings
+
 public class Strings {
 
     public static void main(String[] args) {
-        String name1 = "kajal";
-        String name2 = "kajal2";
-
-        if(name1.compareTo(name2) == 0) {
-            System.out.println("string are equal");
-        } else {
-            System.out.println("string are not equal");
-        }
+        String sentence = "kajalkumari";
+        String name = sentence.substring(0,4);
+        System.out.println(name);
     }
 }
-
 
 
 
