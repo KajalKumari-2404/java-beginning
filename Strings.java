@@ -260,16 +260,33 @@
 // }
 
 
-// CharAt
-public class Strings {
-    public static void main(String[] args) {
-        String firstName = "Kajal";
-        String lastName = "Kumari";
-        String fullName = firstName + "@" + lastName;
-        System.out.print(fullName.length());
+// // CharAt
+// public class Strings {
+//     public static void main(String[] args) {
+//         String firstName = "Kajal";
+//         String lastName = "Kumari";
+//         String fullName = firstName + "@" + lastName;
+//         System.out.print(fullName.length());
 
-        for(int i=0; i<fullName.length(); i++) {
-            System.out.println(fullName.charAt(i));
+//         for(int i=0; i<fullName.length(); i++) {
+//             System.out.println(fullName.charAt(i));
+//         }
+//     }
+// }
+
+
+// compare strings
+
+public class Strings {
+
+    public static void main(String[] args) {
+        String name1 = "kajal";
+        String name2 = "kajal2";
+
+        if(name1.compareTo(name2) == 0) {
+            System.out.println("string are equal");
+        } else {
+            System.out.println("string are not equal");
         }
     }
 }
