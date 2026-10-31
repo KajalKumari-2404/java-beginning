@@ -250,14 +250,30 @@
 
 
 // concatenation
+// public class Strings {
+//     public static void main(String[] args) {
+//         String firstName = "Kajal";
+//         String lastName = "Kumari";
+//         String fullName = firstName + "@" + lastName;
+//         System.out.print(fullName.length());
+//     }
+// }
+
+
+// CharAt
 public class Strings {
     public static void main(String[] args) {
         String firstName = "Kajal";
         String lastName = "Kumari";
-        String fullName = firstName + " " + lastName;
-        System.out.print(fullName);
+        String fullName = firstName + "@" + lastName;
+        System.out.print(fullName.length());
+
+        for(int i=0; i<fullName.length(); i++) {
+            System.out.println(fullName.charAt(i));
+        }
     }
 }
+
 
 
 
