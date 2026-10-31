@@ -190,14 +190,29 @@
 
 //Method with parameters
 
-public class Main {
+// public class Main {
 
-    static void add(int a, int b) {
-        System.out.println(a + b);
-    }
+//     static void add(int a, int b) {
+//         System.out.println(a + b);
+//     }
 
-    public static void main(String[] args) {
-        add(10, 20);
+//     public static void main(String[] args) {
+//         add(10, 20);
+//     }
+// }
+
+// Array
+
+//Arrays
+
+public class Arrays {
+    public static void main(String args[]) {
+        int[] marks = new int[3];
+        marks[0] = 97;
+        marks[1] = 98;
+        marks[2] = 95;
+        System.out.println(marks[0]);
+        System.out.println(marks[1]);
+        System.out.println(marks[2]);
     }
 }
-
