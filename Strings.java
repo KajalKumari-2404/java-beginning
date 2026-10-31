@@ -235,15 +235,29 @@
 
 // String
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
+// public class Strings {
+//     public static void main(String[] args) {
+//         // String name = "kajal";
+//         // String fullName = "Kajal Kumari";
+//         // String sentence = "My name is kajal kumari";
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();
+//         System.out.println("your name is : "+ name);   
+//     }
+// }
+
+
+// concatenation
 public class Strings {
     public static void main(String[] args) {
-        // String name = "kajal";
-        // String fullName = "Kajal Kumari";
-        // String sentence = "My name is kajal kumari";
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("your name is : "+ name);   
+        String firstName = "Kajal";
+        String lastName = "Kumari";
+        String fullName = firstName + lastName;
+        System.out.print(fullName);
     }
 }
+
+
+
