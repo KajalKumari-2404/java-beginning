@@ -254,7 +254,7 @@ public class Strings {
     public static void main(String[] args) {
         String firstName = "Kajal";
         String lastName = "Kumari";
-        String fullName = firstName + lastName;
+        String fullName = firstName + " " + lastName;
         System.out.print(fullName);
     }
 }
