@@ -294,14 +294,15 @@
 
 // sub strings
 
-public class Strings {
+// public class Strings {
 
-    public static void main(String[] args) {
-        String sentence = "kajalkumari";
-        String name = sentence.substring(0,4);
-        System.out.println(name);
-    }
-}
+//     public static void main(String[] args) {
+//         String sentence = "kajalkumari";
+//         String name = sentence.substring(0,4);
+//         System.out.println(name);
+//     }
+// }
+
 
 
 
