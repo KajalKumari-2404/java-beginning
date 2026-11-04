@@ -6,5 +6,8 @@ public class ArrayBasics {
         int[] x = {6,19,7,69,9,171,5};
         // indexing
         System.out.println(x[5]);
+        // updating elements
+        x[3] = 89;
+        System.out.println(x[3]);
     }
 }
