@@ -16,19 +16,19 @@
 
 // by for loop
 
-package Arrays;
+// package Arrays;
 
-public class OutputinputArray {
+// public class OutputinputArray {
 
-    public static void main(String[] args) {
-        int[] arr = {5,-8, 2, 67, 43, -97};
-        // for(int i=0; i<=5; i++) {
-        //     System.out.print(arr[i]+" ");
-        // }
-        int i = 0;
-        while(i<=5){
-            System.out.print(arr[i]+" ");
-            i++;
-        }
-    }
-}
+//     public static void main(String[] args) {
+//         int[] arr = {5,-8, 2, 67, 43, -97};
+//         // for(int i=0; i<=5; i++) {
+//         //     System.out.print(arr[i]+" ");
+//         // }
+//         int i = 0;
+//         while(i<=5){
+//             System.out.print(arr[i]+" ");
+//             i++;
+//         }
+//     }
+// }
