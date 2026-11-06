@@ -16,16 +16,16 @@
 
 // second method
 
-package Arrays;
+// package Arrays;
 
-public class ArrayBasics {
+// public class ArrayBasics {
 
-    public static void main(String[] args) {
-        int[] arr = new int[4]; // 4 size ka array (0-3)
-        arr[0] = 10;
-        arr[1] = 12;
-        arr[2] = 15;
-        arr[3] = 20;
+//     public static void main(String[] args) {
+//         int[] arr = new int[4]; // 4 size ka array (0-3)
+//         arr[0] = 10;
+//         arr[1] = 12;
+//         arr[2] = 15;
+//         arr[3] = 20;
         
-    }
-}
+//     }
+// }
